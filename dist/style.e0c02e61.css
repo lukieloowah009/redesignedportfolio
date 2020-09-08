@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p, li, dt, dd {
+  font-family: "Comfortaa", cursive;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.home, .about, .education, .work, .contact, .miscellaneous {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.home-content, .about-content, .education-content, .work-content, .contact-content, .miscellaneous-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-content img, .about-content img, .education-content img, .work-content img, .contact-content img, .miscellaneous-content img {
+  height: 50%;
+}
+.home-content h1, .about-content h1, .education-content h1, .work-content h1, .contact-content h1, .miscellaneous-content h1 {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+.home-content p, .about-content p, .education-content p, .work-content p, .contact-content p, .miscellaneous-content p {
+  font-size: 20px;
+}
+
+.home {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.about {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.education {
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.work {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.contact {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.miscellaneous {
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+/*# sourceMappingURL=/style.e0c02e61.css.map */
