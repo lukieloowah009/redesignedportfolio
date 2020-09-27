@@ -9,7 +9,8 @@ const H = new Highway.Core({
         education: Fade2,
         work: Fade2,
         contact: Fade,
-        miscellaneous: Fade
+        miscellaneous: Fade,
+        projects: Fade
     }
     
 });

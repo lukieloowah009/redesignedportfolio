@@ -6057,7 +6057,8 @@ var H = new _highway.default.Core({
     education: _transitionEducation.default,
     work: _transitionEducation.default,
     contact: _transition.default,
-    miscellaneous: _transition.default
+    miscellaneous: _transition.default,
+    projects: _transition.default
   }
 });
 },{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.module.js","./transition":"js/transition.js","./transition-education":"js/transition-education.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -6088,7 +6089,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51027" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56434" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
